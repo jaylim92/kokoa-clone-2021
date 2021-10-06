@@ -45,3 +45,25 @@
     margin-bottom: 10px;
     display: block;
 }
+.user-component__numberbox{
+    display: flex;
+
+}
+.user-component__text{
+    position: relative;
+}
+.user-component__text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -25px;
+    bottom: -1.5px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px;
+    color: red;
+    font-size: 14px;
+}
