@@ -36,8 +36,46 @@
       </div>
     </header>
 
-    <main class="main-screen more-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuseday, June 30, 2021</div>
+      <div class="message-row">
+        <img
+          src="https://lh3.googleusercontent.com/ogw/ADea4I7d32Jp8tXrT8HH6CBF1M6HyqzjkuG2rYt7PNDf0Q=s83-c-mo"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Jay</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi! nice to meet you</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="wirte a message..." />
+        <i class="far fa-surprise fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/7e32c02b2f.js"
       crossorigin="anonymous"
