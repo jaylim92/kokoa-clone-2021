@@ -1,5 +1,5 @@
 .badge {
-    background-color: tomato;
+    background-color: var(--yellow);
     width: 28px;
     height: 28px;
     border-radius: 14px;
